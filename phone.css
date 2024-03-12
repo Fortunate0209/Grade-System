@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 475px){
+
+    body {
+        background-image: url(image/pexels-pixabay-268533.jpg);
+        background-size: cover;
+        height: 500px;
+        background-repeat: no-repeat;
+    }
+
+    .grade-2 {
+        background-color: aquamarine;
+        width: 370px;
+        margin-left: 10px;
+        height: 300px;
+        border-radius: 20px;
+        border-top: 10px solid black;
+        border-bottom: 10px solid black;
+    
+    }
+
+    #result {
+        border: 2px solid gray;
+        width: 200px;
+        height: 35px;
+        margin-top: 10px;
+        color: green;
+        border-radius: 10px;
+        text-align: center;
+        position: absolute;
+        left: 90px;
+        top: 390px;
+        height: 50px;
+        
+    }
+
+    .in-btn {
+        margin-top: 20px;
+    }
+
+    #score {
+        padding: 10px;
+        width: 250px;
+        border-radius: 10px;
+    }
+}
